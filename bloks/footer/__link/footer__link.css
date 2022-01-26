@@ -1,0 +1,20 @@
+.footer__link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    padding-right: 18px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer__link:hover{
+    opacity: 0.8;
+}
+
+.footer__link:last-child {
+    padding-right: 0px;
+}

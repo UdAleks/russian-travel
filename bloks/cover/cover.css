@@ -1,0 +1,7 @@
+.cover {
+    height: 740px;
+    width: 1184px;
+    margin: 92px 48px 0px 48px;
+    background-image: url(../../images/__background.jpg);
+    background-size: cover;
+}

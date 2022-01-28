@@ -5,6 +5,13 @@
     font-style: normal;
     color: #fff;
     padding-top: 18px;
-    /*margin-top: 28px;
-    margin-right: 48px;*/
+}
+
+@media all and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+        padding-top: 14px;
+    }
+    
 }

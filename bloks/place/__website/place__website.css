@@ -4,3 +4,20 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+
+@media all and (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+    }
+    
+}
+
+@media all and (max-width: 320px) {
+    .place__website {
+        max-width: 288px;
+        height: 46px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+}

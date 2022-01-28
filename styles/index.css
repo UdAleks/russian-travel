@@ -32,4 +32,5 @@
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__links/footer__links.css);
 @import url(../bloks/footer/__link/footer__link.css);
+@import url(../bloks/footer/__link/_decoration-none/footer__link_decoration-none.css);
 @import url(../bloks/footer/__copyright/footer__copyright.css);

@@ -2,12 +2,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 1005px;
+    max-height: 1005px;
     max-width: 984px;
     padding: 0px 148px;
 }
 
-@media (max-width: 1024px) {
-    max-width: 720px;
-    padding: 0px 152px;
+@media all and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        padding: 0px 48px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        padding: 0px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+    }
 }

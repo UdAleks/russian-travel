@@ -1,0 +1,38 @@
+.header {
+    max-width: 92.5vw;
+    margin: 0 auto;
+    padding: 28px 0px 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1024px) {
+    .header {
+        max-width: 90.625vw;
+        padding-bottom: 48px;
+    } 
+    
+}
+
+@media all and (max-width: 768px) {
+    .header {
+        max-width: 92.71vw;
+        padding: 24px 0px 48px;
+    } 
+
+}
+
+@media all and (max-width: 700px) {
+    .header {
+        max-width: 94.28vw;
+    } 
+
+}
+
+@media all and (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        padding: 16px 0px 48px;
+    } 
+    
+}

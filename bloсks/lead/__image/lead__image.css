@@ -1,0 +1,11 @@
+.lead__image {
+    max-height: 615px;
+    max-width: 984px;
+}
+
+@media all and (max-width: 768px) {
+    .lead__image {
+        max-width: 100vw;
+    }
+    
+}

@@ -4,20 +4,24 @@
     font-weight: 400;
     font-style: normal;
     color: #fff;
-    padding-top: 18px;
     text-decoration: none;
     padding-right: 18px;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+    transition: 1s;
 }
 
 .header__lang-link:last-child {
     padding-right: 0px;
 }
 
+
 @media all and (max-width: 520px) {
     .header__lang-link {
         font-size: 20px;
         line-height: 22px;
-        padding-top: 16px;
     }
     
 }
@@ -26,7 +30,6 @@
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        padding-top: 14px;
     }
     
 }

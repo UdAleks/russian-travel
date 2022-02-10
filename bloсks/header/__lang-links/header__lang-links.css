@@ -1,0 +1,18 @@
+.header__lang-links {
+    margin: 0;
+    padding-top: 18px;
+}
+
+@media all and (max-width: 520px) {
+    .header__lang-links {
+        padding-top: 16px;
+    }
+    
+}
+
+@media all and (max-width: 320px) {
+    .header__lang-links {
+        padding-top: 14px;
+    }
+    
+}
